@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="estilos.css"/>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar">
+           
+            <ul>
+                <img id="header-img" src="img/foto-nav.png"></img> 
+                <li>
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li> 
+
+                <li>
+                    <a class="nav-link" href="#how-it-works">How it works</a>
+                </li>
+
+                <li>
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+            </ul>
+            
+        </nav>
+    </header>
+
+
+    <div class="page"> 
+        <h1>Handcrafted, home-made masterpieces</h1>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" >
+           
+            <input 
+                name="email"
+                id="email" 
+                type="email" 
+                placeholder="Enter your email address"
+                required
+            />
+            <input
+                id="submit"    
+                type="submit"
+                value="Get Started"
+                class="btn"
+                submit
+            />
+        </form>
+
+
+        <seccion id="features">
+            
+            <div class="premium-materials">
+                <img src="img/foto1.png">
+
+                <article> 
+                    <h2>Premium Materials</h2>
+                    <p >Our trombones use the shiniest brass which is sourced locally. 
+                        This will increase the longevity of your purchase.</p>
+                </article>
+            </div>
+           
+            <div class="fast-shipping">
+                <img src="img/foto2.png">
+                <article> 
+                    <h2>Fast Shipping</h2>
+                    <p>We make sure you recieve your trombone as soon as we have finished making it. 
+                        We also provide free returns if you are not satisfied.</p>
+                </article>
+            </div>
+
+            <div class="quality">
+                <img src="img/foto3.png">
+
+                <article> 
+                    <h2>Quality Assurance</h2>
+                    <p >For every purchase you make, we will ensure there are no 
+                        damages or faults and we will check and test the pitch of your instrument.</p>
+                </article>
+            </div>
+        </seccion>
+
+        <seccion id="how-it-works">
+            <iframe
+            id="video"
+            width="480"
+            height="360"
+            src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </seccion>
+
+        <seccion id="pricing">
+            <div class="model1">
+                <h2 id="product-name">Model1</h2>
+
+                <p id="price"><b>800€</b></p>
+                <div id="description">
+                <p>Good materials</p>
+                <p>Good looks</p>
+                <p>Good quality</p>
+                <p>Good sound</p>
+                </div>
+                <input
+                id="submit"    
+                type="submit"
+                value="BUY"
+                submit
+                />
+            </div>
+
+            <div class="model2">
+                
+                <h2 id="product-name">Model2</h2>
+                <p id="price"><b>1000€</b></p>
+                <div id="description">
+                <p>Better materials</p>
+                <p>Better looks</p>
+                <p>Better quality</p>
+                <p>Better sound</p>
+                </div>
+                
+                <input
+                id="submit"    
+                type="submit"
+                value="BUY"
+                submit
+                />
+            </div>
+
+            <div class="model3">
+                
+                <h2 id="product-name">Model3</h2>
+                
+                
+                <p id="price"><b>1200€</b></p>
+                <div id="description">
+                <p>Best materials</p>
+                <p>Best looks</p>
+                <p>Best quality</p>
+                <p>Best sound</p>
+                </div>
+            
+                <input
+                id="submit"    
+                type="submit"
+                value="BUY"
+                submit
+                />
+                
+            </div>
+        </seccion>
+
+        <footer>
+            
+                <ul>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Terms</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+                <span>Copyright 2021, Original Trombones</span>
+              
+        </footer>
+
+    </div>
+
+
+
+
+</body>
+</html>
